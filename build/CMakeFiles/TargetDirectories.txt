@@ -1,0 +1,6 @@
+/Users/nburrell/Desktop/CSC473/Ass2/build/CMakeFiles/assignment.dir
+/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/CMakeFiles/uninstall.dir
+/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/CMakeFiles/atlas.dir
+/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/CMakeFiles/ALL_BUILD.dir
+/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/CMakeFiles/ZERO_CHECK.dir
+/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/CMakeFiles/glfw.dir

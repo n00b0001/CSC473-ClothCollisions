@@ -1,0 +1,29 @@
+TZERO_CHECK
+v6
+r1
+cCheck dependencies
+cPhaseScriptExecution CMake\ Rules /Users/nburrell/Desktop/CSC473/Ass2/build/assignment.build/Debug/ZERO_CHECK.build/Script-C62A378432944FC5BACED667.sh
+
+N/Users/nburrell/Desktop/CSC473/Ass2/build/assignment.build/Debug/ZERO_CHECK.build/Script-C62A378432944FC5BACED667.sh
+c0000000056BFD04B00000000000000AD
+t1455411275
+s173
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies3ae8dacb0770bc41^b281dccb0770bc41^---0#1#1#--18"Check dependencies36"C5A177EA-A58D-4948-9B56-BF9C80C0934F-
+
+CPhaseScriptExecution CMake\ Rules /Users/nburrell/Desktop/CSC473/Ass2/build/assignment.build/Debug/ZERO_CHECK.build/Script-C62A378432944FC5BACED667.sh
+s477104075.868797
+e477104076.011544
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/nburrell/Desktop/CSC473/Ass2/build/assignment.build/Debug/ZERO_CHECK.build/Script-C62A378432944FC5BACED667.sh
+oecho ""
+o
+omake -f /Users/nburrell/Desktop/CSC473/Ass2/build/CMakeScripts/ReRunCMake.make
+omake[1]: `/Users/nburrell/Desktop/CSC473/Ass2/build/CMakeFiles/cmake.check_cache' is up to date.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'114"PhaseScriptExecution CMake\ Rules build/assignment.build/Debug/ZERO_CHECK.build/Script-C62A378432944FC5BACED667.sh50c4decb0770bc41^edf502cc0770bc41^-185"echo ""make -f /Users/nburrell/Desktop/CSC473/Ass2/build/CMakeScripts/ReRunCMake.makemake[1]: `/Users/nburrell/Desktop/CSC473/Ass2/build/CMakeFiles/cmake.check_cache' is up to date.3(21%IDEActivityLogMessage2@8"echo ""-477104075#0#8#-0#-----2@79"make -f /Users/nburrell/Desktop/CSC473/Ass2/build/CMakeScripts/ReRunCMake.make-477104075#9#79#-0#-----2@97"make[1]: `/Users/nburrell/Desktop/CSC473/Ass2/build/CMakeFiles/cmake.check_cache' is up to date.-477104076#88#97#-0#-----0#0#1#--290"PhaseScriptExecution CMake\ Rules build/assignment.build/Debug/ZERO_CHECK.build/Script-C62A378432944FC5BACED667.sh    cd /Users/nburrell/Desktop/CSC473/Ass2    /bin/sh -c /Users/nburrell/Desktop/CSC473/Ass2/build/assignment.build/Debug/ZERO_CHECK.build/Script-C62A378432944FC5BACED667.sh36"FE52F2C8-0832-4BF6-AD93-050447154179-
+b25F0F095-2275-408C-A728-7F1F56C4E88C
+

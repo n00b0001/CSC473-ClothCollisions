@@ -1,0 +1,1518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1A5CFE32B1704FFEA4117D12 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6AAD0F9872A9422091D41A1D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				6BFC1E297FC7475B84E9B5ED /* CMake Rules */,
+			);
+			dependencies = (
+				DEC5F2D1B5AD4B6F8FC8326C /* PBXTargetDependency */,
+				8886373CC17C4901BC39DED0 /* PBXTargetDependency */,
+				80B0F8A63B71496C84616FD0 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		5DAB50CF22174C75A0352440 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A88A6C93EF15440BBFA9BDF5 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				32AAD56502C34134A89E7549 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				110DBEC51D3D47BDB11E6213 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		B842BA545D8942DEAFE01F06 /* uninstall */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7CC7052B78794B789F86DBA1 /* Build configuration list for PBXAggregateTarget "uninstall" */;
+			buildPhases = (
+				9A80FBCFB0F24DA0983A0848 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = uninstall;
+			productName = uninstall;
+		};
+		ED64C81619684CC7B2B6876C /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B134BFB1E5AB4DF6BA8CD76F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				5C3E862BD7F8404DAE5C9307 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0509B4A0B1774331A0A52C79 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/math/Math.hpp */ = {isa = PBXBuildFile; fileRef = 85DB02D779C64BC5851A15B4 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/math/Math.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		07DF45A1EC0C400CB82F780F /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Cone.cpp */ = {isa = PBXBuildFile; fileRef = F95997CDD1554A308582C32D /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Cone.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		0E3146D1DBAB4190BB698F84 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/iokit_joystick.h */ = {isa = PBXBuildFile; fileRef = 9DD7B56FFCED460591D80B38 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/iokit_joystick.h */; settings = {COMPILER_FLAGS = ""; }; };
+		0FD74749721449949C982051 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/math/Ray.hpp */ = {isa = PBXBuildFile; fileRef = 4A3BCF8F72604B169057EFFC /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/math/Ray.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		120F3BACE2254CA092A02C0B /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = 60020BFAE6444464B955CE4E /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/include/GLFW/glfw3.h */; settings = {COMPILER_FLAGS = ""; }; };
+		125DFBC659A84FE9A705249A /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/primitives/Primitives.hpp */ = {isa = PBXBuildFile; fileRef = C0C5AEBDE25C495E9AF3EC74 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/primitives/Primitives.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		137357CEC3AB4F7F9A7B6F90 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/utils/Time.hpp */ = {isa = PBXBuildFile; fileRef = AF5DE517241A42B2916EC037 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/utils/Time.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		169AD24EA02E481E9B1760D1 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/core/Float.hpp */ = {isa = PBXBuildFile; fileRef = 23834479469948F4979720BF /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/core/Float.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		1BD485320A714A1988E3F408 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/utils/Utils.hpp */ = {isa = PBXBuildFile; fileRef = 52BC84AE5FF34DF3BE68E138 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/utils/Utils.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		208AB1D0B8504ABCB7145528 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = 4AFDF261DAA64D27A94770B0 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/nsgl_context.m */; settings = {COMPILER_FLAGS = ""; }; };
+		2364176D259F4B4C9B6FE2C9 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/utils/Film.cpp */ = {isa = PBXBuildFile; fileRef = AC8666323D5B4C97A926755F /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/utils/Film.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		2B085DDAC6804192ABB356D6 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = 152AB88725124750880F6F7A /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_platform.h */; settings = {COMPILER_FLAGS = ""; }; };
+		3263AFD291534E6995AB7B42 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/primitives/Cone.hpp */ = {isa = PBXBuildFile; fileRef = A0143B1CEF894F0D9109EEFB /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/primitives/Cone.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3A34DDD3E3A444DF965AF352 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/init.c */ = {isa = PBXBuildFile; fileRef = 72F824FA577C49A392B98A01 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/init.c */; settings = {COMPILER_FLAGS = ""; }; };
+		3B72B3C2F6794808BB118080 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/math/Coordinates.hpp */ = {isa = PBXBuildFile; fileRef = B7C04DD389014F88AA17A917 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/math/Coordinates.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3CF2507845E8412A880DC3EC /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/utils/Film.hpp */ = {isa = PBXBuildFile; fileRef = E0D7C57DC0EF413B83432735 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/utils/Film.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		3ECB2A4F86A14F62932796E5 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/Atlas.hpp */ = {isa = PBXBuildFile; fileRef = F6E1A2C543014515BC78144C /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/Atlas.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		41D6895D3DDA45B5BB7339B4 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/iokit_joystick.m */ = {isa = PBXBuildFile; fileRef = D84212618AF74BFA99470887 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/iokit_joystick.m */; settings = {COMPILER_FLAGS = ""; }; };
+		4666252364494E15AB08C70E /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/primitives/Cube.hpp */ = {isa = PBXBuildFile; fileRef = 0C558EF4DD194C6F94CBCDD1 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/primitives/Cube.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		46F9E7B68D67470F990C9373 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/mach_time.c */ = {isa = PBXBuildFile; fileRef = 34D363C033B14BC182A0FFFB /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/mach_time.c */; settings = {COMPILER_FLAGS = ""; }; };
+		4FD6DA96F5594FA4A514FDBD /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Disk.cpp */ = {isa = PBXBuildFile; fileRef = BD86D514F3374BCBA3129DA5 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Disk.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		578EEC57B9EA4005AF24AA9C /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/utils/Geometry.hpp */ = {isa = PBXBuildFile; fileRef = F960033CD026449782B098A0 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/utils/Geometry.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		5A1FDCE5E0D64AE39ECFDC6C /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/nsgl_context.h */ = {isa = PBXBuildFile; fileRef = 6C632A81E89B481DA17D337E /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/nsgl_context.h */; settings = {COMPILER_FLAGS = ""; }; };
+		5DD5600624DC4739892CD95D /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/core/Constants.hpp */ = {isa = PBXBuildFile; fileRef = F9E61E7670314D8C92A8AAD5 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/core/Constants.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		5E1859BEA76B40869E52B147 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/core/Core.hpp */ = {isa = PBXBuildFile; fileRef = 3AD0BD1617644922AD58384D /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/core/Core.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6242EAACFDEE4CE992E8F54C /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/utils/Camera.hpp */ = {isa = PBXBuildFile; fileRef = E5CA9D1C07A540C2AB873DDF /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/utils/Camera.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		655EC52B7E854CB0BF2F11E4 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/utils/Application.hpp */ = {isa = PBXBuildFile; fileRef = 34EAF59F06E148FC8FF16870 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/utils/Application.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6577FC03A69543A6A464FA8D /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/posix_tls.c */ = {isa = PBXBuildFile; fileRef = 8CF71FB030BA46AFBAC21E79 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/posix_tls.c */; settings = {COMPILER_FLAGS = ""; }; };
+		67084E84D917498FB626A42D /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/utils/Camera.cpp */ = {isa = PBXBuildFile; fileRef = 9FB458CFA4F74DA9B08A11E7 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/utils/Camera.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		6EA0C646DBEF43CB8E8E6EB6 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/utils/RGBColour.hpp */ = {isa = PBXBuildFile; fileRef = 3E72B85B13E845088CAD5BAC /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/utils/RGBColour.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		7091F2D5FFE3416A889D50CF /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/input.c */ = {isa = PBXBuildFile; fileRef = 5A89F36C0F6A4257ABF3572D /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/input.c */; settings = {COMPILER_FLAGS = ""; }; };
+		766539158E154CBB807C29E9 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/window.c */ = {isa = PBXBuildFile; fileRef = 20A8CCF239314D30AC552BCE /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/window.c */; settings = {COMPILER_FLAGS = ""; }; };
+		78A0C6B44C9548DEAFDAF156 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = BA0DC25905754FAFA2A7D304 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		875675D28B534A8486B8FDBA /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/core/Platform.hpp */ = {isa = PBXBuildFile; fileRef = 838FB1C28C4B44E4B22E6C3A /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/core/Platform.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8A0032DD7902462A9482F024 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/core/Log.hpp */ = {isa = PBXBuildFile; fileRef = D407C602F9644CBC92E79F2F /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/core/Log.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8DCBBA355F8F45648E9E318F /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/core/Macros.hpp */ = {isa = PBXBuildFile; fileRef = F04921B34D174C159184B771 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/core/Macros.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		8E594FFFEAD04834884A45C1 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Primitive.cpp */ = {isa = PBXBuildFile; fileRef = 33B7F24A72894A468BF5F581 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Primitive.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		93405D7D80EC4791BD5E6843 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/core/Timer.hpp */ = {isa = PBXBuildFile; fileRef = CDEE500BD0F34584BCCC26B2 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/core/Timer.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		934E14680D6B42D19F2420E4 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = 5B25E09C137542D89545F63A /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/include/GLFW/glfw3native.h */; settings = {COMPILER_FLAGS = ""; }; };
+		96420C6F955E48D996508D86 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/internal.h */ = {isa = PBXBuildFile; fileRef = FE133440BD7F45A791F2DE1B /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/internal.h */; settings = {COMPILER_FLAGS = ""; }; };
+		A3F5FFAA630249559F5CFE84 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/gl/ErrorCheck.cpp */ = {isa = PBXBuildFile; fileRef = 9CC63664C62F4F4DA8602D82 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/gl/ErrorCheck.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		A9FDD08A57474609B38975C8 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/math/RandomGenerator.hpp */ = {isa = PBXBuildFile; fileRef = AEA32A7E1B124779A19856C7 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/math/RandomGenerator.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		AC2C0E63130E4AA8806EF134 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/utils/Scene.cpp */ = {isa = PBXBuildFile; fileRef = AD85783A84B54BB4879B7F31 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/utils/Scene.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B1EB3B181E9348AA8A0F328A /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/core/GLI.hpp */ = {isa = PBXBuildFile; fileRef = 61E406BFB3664C9AA2146DE5 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/core/GLI.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B55CFD7BD9554A1EAE583DDE /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/gl/Shader.hpp */ = {isa = PBXBuildFile; fileRef = C8787973FEB74EF5B5FFFA44 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/gl/Shader.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B5AC5E98F43E435581841B1F /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/math/Vector.hpp */ = {isa = PBXBuildFile; fileRef = 5D003B1EDAB14D6086252C1D /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/math/Vector.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		B7D9E31FC4A1459AADC9336C /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = 2D07C61F81024EB39D3A374A /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_init.m */; settings = {COMPILER_FLAGS = ""; }; };
+		BFA250B3446A4142AFE0F51C /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/math/Matrix.hpp */ = {isa = PBXBuildFile; fileRef = DE95C14B74DB41CBA962635C /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/math/Matrix.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C310C0E173104F5FAD5B9719 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/math/Solvers.hpp */ = {isa = PBXBuildFile; fileRef = FAC60F7CCE764C6583A42D32 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/math/Solvers.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C4018AEDFFB54C04BFCEB19F /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/gl/Shader.cpp */ = {isa = PBXBuildFile; fileRef = 3C500FEC453F4A1083BB0DD3 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/gl/Shader.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C52B7CAFE27E46DB8242489C /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/core/GLFW.hpp */ = {isa = PBXBuildFile; fileRef = 178E2E8CF21A4F9E898C85BF /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/core/GLFW.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		C6DB69D69DC9431E9D38BD9D /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/utils/Geometry.cpp */ = {isa = PBXBuildFile; fileRef = 0B189B076DE646F4A748C139 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/utils/Geometry.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		CDDB07CCF42E4AA7A20F3880 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/utils/Scene.hpp */ = {isa = PBXBuildFile; fileRef = 7E2B6A4B9E194AF99CAE87BD /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/utils/Scene.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		CF488D714B564531A885E2AE /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = CCE8040AF3384EE1A44ACC19 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		D16213001D174528A7DC0BB9 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/posix_tls.h */ = {isa = PBXBuildFile; fileRef = 48BF5B6F1446459FA791B4F4 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/posix_tls.h */; settings = {COMPILER_FLAGS = ""; }; };
+		D2D191985C2A47DE9D538051 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Cube.cpp */ = {isa = PBXBuildFile; fileRef = 83F3ECDDC8A24742AF2B1C43 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Cube.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		DA0C607A31DB4A3C9923A1C3 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/math/Quaternion.hpp */ = {isa = PBXBuildFile; fileRef = 2BBAA42B675141D8BD6C2B69 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/math/Quaternion.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		DA63CDC677ED40E7AE13958E /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/primitives/Disk.hpp */ = {isa = PBXBuildFile; fileRef = 3FA0ECC253034B6184D3BACB /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/primitives/Disk.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		DAB3696F3E7249CBAFB6C121 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/primitives/Primitive.hpp */ = {isa = PBXBuildFile; fileRef = D559BBEB1E0E40379636DE93 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/primitives/Primitive.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		DC4C556C1BE14AA38626E520 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/OpenCylinder.cpp */ = {isa = PBXBuildFile; fileRef = 7D8A59A2D0ED41888CFDF086 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/OpenCylinder.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		DCCBA740B4504E618260B4B1 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/core/Log.cpp */ = {isa = PBXBuildFile; fileRef = 0034E78276C04B9D9AC8B69D /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/core/Log.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		DD714912E3B24A11BFC63328 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/primitives/OpenCylinder.hpp */ = {isa = PBXBuildFile; fileRef = AA1C7D2ED2C8452DB2632D7A /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/primitives/OpenCylinder.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		DDBF98C4A8B440848B96F7F4 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Sphere.cpp */ = {isa = PBXBuildFile; fileRef = C719CDEB0D9542F5865733BF /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Sphere.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		DEE663243A1D4EB9B57AB3DE /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/utils/Application.cpp */ = {isa = PBXBuildFile; fileRef = FBFFC071D68B4331B8698825 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/utils/Application.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		EA1E6948E5E249F08C36E1E4 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/gl/ErrorCheck.hpp */ = {isa = PBXBuildFile; fileRef = 8D3D08EF14854B2CBD9CA0D2 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/gl/ErrorCheck.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		EB95291E05E1477EA6FB2A75 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = 50A7BDE4004640E29FCF037F /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_monitor.m */; settings = {COMPILER_FLAGS = ""; }; };
+		ECE7662FE9224C4283B82405 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/monitor.c */ = {isa = PBXBuildFile; fileRef = E84621F9D7984D7EA33F2417 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/monitor.c */; settings = {COMPILER_FLAGS = ""; }; };
+		F60CDA7FF404412D8498C349 /* /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/glfw_config.h */ = {isa = PBXBuildFile; fileRef = 245E58545F2A4B55BBE1A6F2 /* /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/glfw_config.h */; settings = {COMPILER_FLAGS = ""; }; };
+		F8A1245073024BD193558029 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/context.c */ = {isa = PBXBuildFile; fileRef = 4E39F239FDFC4975BA2EC474 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/context.c */; settings = {COMPILER_FLAGS = ""; }; };
+		FD50F5E288BA4FCBB2F0352F /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = 18EE60BE80F0430F8FF72D81 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_window.m */; settings = {COMPILER_FLAGS = ""; }; };
+		FE8AC286660249D5A9243906 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/gl/GL.hpp */ = {isa = PBXBuildFile; fileRef = 74BB7465EEE1437ABD8FA62E /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/gl/GL.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+		FF60E43E9E084A8E83B99F96 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/primitives/Sphere.hpp */ = {isa = PBXBuildFile; fileRef = FFD9C29271F84A3A9171B16F /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/primitives/Sphere.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		11795EA1BA7A48738F6AA7C5 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		7237979164764758AA691775 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		77866BE9AC7D42F2A54E6942 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		B0F91CA11A2E4987AECB57BA = {
+			isa = PBXBuildStyle;
+		};
+		D0EE31FFA6CF4E1EA92B175B /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		2E6C08DAE4DF43BF901871D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90D16FD6968A41C6A58A3853 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A5CFE32B1704FFEA4117D12;
+			remoteInfo = ALL_BUILD;
+		};
+		63AF90C9E29D438D89611579 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90D16FD6968A41C6A58A3853 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87174CBAD92047A29890B454;
+			remoteInfo = glfw;
+		};
+		8019C58B632D4981970C1233 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90D16FD6968A41C6A58A3853 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED64C81619684CC7B2B6876C;
+			remoteInfo = ZERO_CHECK;
+		};
+		820483CA94FE4BFA8BB08002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90D16FD6968A41C6A58A3853 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED64C81619684CC7B2B6876C;
+			remoteInfo = ZERO_CHECK;
+		};
+		984C09162A2A479BBE2161C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90D16FD6968A41C6A58A3853 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0C5789BA166434CACE4EBFD;
+			remoteInfo = atlas;
+		};
+		AA06900A32244EFD97838E82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90D16FD6968A41C6A58A3853 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED64C81619684CC7B2B6876C;
+			remoteInfo = ZERO_CHECK;
+		};
+		CB294B0760A24A519C2A182B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90D16FD6968A41C6A58A3853 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87174CBAD92047A29890B454;
+			remoteInfo = glfw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0034E78276C04B9D9AC8B69D /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/core/Log.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Log.cpp; path = source/atlas/core/Log.cpp; sourceTree = SOURCE_ROOT; };
+		0069061C8603430084FF5C9E /* atlas */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libatlas.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		06AF5B7B60E8421BB8DC18E0 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = external/glfw/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		0B189B076DE646F4A748C139 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/utils/Geometry.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Geometry.cpp; path = source/atlas/utils/Geometry.cpp; sourceTree = SOURCE_ROOT; };
+		0C558EF4DD194C6F94CBCDD1 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/primitives/Cube.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Cube.hpp; path = include/atlas/primitives/Cube.hpp; sourceTree = SOURCE_ROOT; };
+		152AB88725124750880F6F7A /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = external/glfw/src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
+		178E2E8CF21A4F9E898C85BF /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/core/GLFW.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = GLFW.hpp; path = include/atlas/core/GLFW.hpp; sourceTree = SOURCE_ROOT; };
+		18EE60BE80F0430F8FF72D81 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = external/glfw/src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
+		20A8CCF239314D30AC552BCE /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = external/glfw/src/window.c; sourceTree = SOURCE_ROOT; };
+		23834479469948F4979720BF /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/core/Float.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Float.hpp; path = include/atlas/core/Float.hpp; sourceTree = SOURCE_ROOT; };
+		245E58545F2A4B55BBE1A6F2 /* /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = ../../build/lib/atlas/external/glfw/src/glfw_config.h; sourceTree = SOURCE_ROOT; };
+		2BBAA42B675141D8BD6C2B69 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/math/Quaternion.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Quaternion.hpp; path = include/atlas/math/Quaternion.hpp; sourceTree = SOURCE_ROOT; };
+		2D07C61F81024EB39D3A374A /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = external/glfw/src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
+		33B7F24A72894A468BF5F581 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Primitive.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Primitive.cpp; path = source/atlas/primitives/Primitive.cpp; sourceTree = SOURCE_ROOT; };
+		34D363C033B14BC182A0FFFB /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/mach_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = mach_time.c; path = external/glfw/src/mach_time.c; sourceTree = SOURCE_ROOT; };
+		34EAF59F06E148FC8FF16870 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/utils/Application.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Application.hpp; path = include/atlas/utils/Application.hpp; sourceTree = SOURCE_ROOT; };
+		3AD0BD1617644922AD58384D /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/core/Core.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Core.hpp; path = include/atlas/core/Core.hpp; sourceTree = SOURCE_ROOT; };
+		3C500FEC453F4A1083BB0DD3 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/gl/Shader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Shader.cpp; path = source/atlas/gl/Shader.cpp; sourceTree = SOURCE_ROOT; };
+		3E72B85B13E845088CAD5BAC /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/utils/RGBColour.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = RGBColour.hpp; path = include/atlas/utils/RGBColour.hpp; sourceTree = SOURCE_ROOT; };
+		3FA0ECC253034B6184D3BACB /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/primitives/Disk.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Disk.hpp; path = include/atlas/primitives/Disk.hpp; sourceTree = SOURCE_ROOT; };
+		48BF5B6F1446459FA791B4F4 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/posix_tls.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_tls.h; path = external/glfw/src/posix_tls.h; sourceTree = SOURCE_ROOT; };
+		4A3BCF8F72604B169057EFFC /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/math/Ray.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Ray.hpp; path = include/atlas/math/Ray.hpp; sourceTree = SOURCE_ROOT; };
+		4AFDF261DAA64D27A94770B0 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = external/glfw/src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
+		4E39F239FDFC4975BA2EC474 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = external/glfw/src/context.c; sourceTree = SOURCE_ROOT; };
+		50A7BDE4004640E29FCF037F /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = external/glfw/src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
+		52BC84AE5FF34DF3BE68E138 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/utils/Utils.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Utils.hpp; path = include/atlas/utils/Utils.hpp; sourceTree = SOURCE_ROOT; };
+		5A89F36C0F6A4257ABF3572D /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = external/glfw/src/input.c; sourceTree = SOURCE_ROOT; };
+		5B25E09C137542D89545F63A /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = external/glfw/include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
+		5D003B1EDAB14D6086252C1D /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/math/Vector.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Vector.hpp; path = include/atlas/math/Vector.hpp; sourceTree = SOURCE_ROOT; };
+		60020BFAE6444464B955CE4E /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = external/glfw/include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
+		61E406BFB3664C9AA2146DE5 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/core/GLI.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = GLI.hpp; path = include/atlas/core/GLI.hpp; sourceTree = SOURCE_ROOT; };
+		6C632A81E89B481DA17D337E /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = external/glfw/src/nsgl_context.h; sourceTree = SOURCE_ROOT; };
+		72F824FA577C49A392B98A01 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = external/glfw/src/init.c; sourceTree = SOURCE_ROOT; };
+		74BB7465EEE1437ABD8FA62E /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/gl/GL.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = GL.hpp; path = include/atlas/gl/GL.hpp; sourceTree = SOURCE_ROOT; };
+		7D8A59A2D0ED41888CFDF086 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/OpenCylinder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = OpenCylinder.cpp; path = source/atlas/primitives/OpenCylinder.cpp; sourceTree = SOURCE_ROOT; };
+		7E2B6A4B9E194AF99CAE87BD /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/utils/Scene.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Scene.hpp; path = include/atlas/utils/Scene.hpp; sourceTree = SOURCE_ROOT; };
+		838FB1C28C4B44E4B22E6C3A /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/core/Platform.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Platform.hpp; path = include/atlas/core/Platform.hpp; sourceTree = SOURCE_ROOT; };
+		83F3ECDDC8A24742AF2B1C43 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Cube.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Cube.cpp; path = source/atlas/primitives/Cube.cpp; sourceTree = SOURCE_ROOT; };
+		85DB02D779C64BC5851A15B4 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/math/Math.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Math.hpp; path = include/atlas/math/Math.hpp; sourceTree = SOURCE_ROOT; };
+		8CF71FB030BA46AFBAC21E79 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/posix_tls.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_tls.c; path = external/glfw/src/posix_tls.c; sourceTree = SOURCE_ROOT; };
+		8D3D08EF14854B2CBD9CA0D2 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/gl/ErrorCheck.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = ErrorCheck.hpp; path = include/atlas/gl/ErrorCheck.hpp; sourceTree = SOURCE_ROOT; };
+		9CC63664C62F4F4DA8602D82 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/gl/ErrorCheck.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ErrorCheck.cpp; path = source/atlas/gl/ErrorCheck.cpp; sourceTree = SOURCE_ROOT; };
+		9DD7B56FFCED460591D80B38 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/iokit_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = iokit_joystick.h; path = external/glfw/src/iokit_joystick.h; sourceTree = SOURCE_ROOT; };
+		9FB458CFA4F74DA9B08A11E7 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/utils/Camera.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Camera.cpp; path = source/atlas/utils/Camera.cpp; sourceTree = SOURCE_ROOT; };
+		A0143B1CEF894F0D9109EEFB /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/primitives/Cone.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Cone.hpp; path = include/atlas/primitives/Cone.hpp; sourceTree = SOURCE_ROOT; };
+		A712CF26DA444466953AA82B /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA1C7D2ED2C8452DB2632D7A /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/primitives/OpenCylinder.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = OpenCylinder.hpp; path = include/atlas/primitives/OpenCylinder.hpp; sourceTree = SOURCE_ROOT; };
+		AC8666323D5B4C97A926755F /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/utils/Film.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Film.cpp; path = source/atlas/utils/Film.cpp; sourceTree = SOURCE_ROOT; };
+		AD85783A84B54BB4879B7F31 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/utils/Scene.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Scene.cpp; path = source/atlas/utils/Scene.cpp; sourceTree = SOURCE_ROOT; };
+		AEA32A7E1B124779A19856C7 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/math/RandomGenerator.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = RandomGenerator.hpp; path = include/atlas/math/RandomGenerator.hpp; sourceTree = SOURCE_ROOT; };
+		AF5DE517241A42B2916EC037 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/utils/Time.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Time.hpp; path = include/atlas/utils/Time.hpp; sourceTree = SOURCE_ROOT; };
+		B7C04DD389014F88AA17A917 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/math/Coordinates.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Coordinates.hpp; path = include/atlas/math/Coordinates.hpp; sourceTree = SOURCE_ROOT; };
+		BA0DC25905754FAFA2A7D304 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		BD86D514F3374BCBA3129DA5 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Disk.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Disk.cpp; path = source/atlas/primitives/Disk.cpp; sourceTree = SOURCE_ROOT; };
+		C0C5AEBDE25C495E9AF3EC74 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/primitives/Primitives.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Primitives.hpp; path = include/atlas/primitives/Primitives.hpp; sourceTree = SOURCE_ROOT; };
+		C719CDEB0D9542F5865733BF /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Sphere.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Sphere.cpp; path = source/atlas/primitives/Sphere.cpp; sourceTree = SOURCE_ROOT; };
+		C8787973FEB74EF5B5FFFA44 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/gl/Shader.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Shader.hpp; path = include/atlas/gl/Shader.hpp; sourceTree = SOURCE_ROOT; };
+		CCE8040AF3384EE1A44ACC19 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = external/glfw/src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CDEE500BD0F34584BCCC26B2 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/core/Timer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Timer.hpp; path = include/atlas/core/Timer.hpp; sourceTree = SOURCE_ROOT; };
+		D407C602F9644CBC92E79F2F /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/core/Log.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Log.hpp; path = include/atlas/core/Log.hpp; sourceTree = SOURCE_ROOT; };
+		D559BBEB1E0E40379636DE93 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/primitives/Primitive.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Primitive.hpp; path = include/atlas/primitives/Primitive.hpp; sourceTree = SOURCE_ROOT; };
+		D84212618AF74BFA99470887 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/iokit_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = iokit_joystick.m; path = external/glfw/src/iokit_joystick.m; sourceTree = SOURCE_ROOT; };
+		DE95C14B74DB41CBA962635C /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/math/Matrix.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Matrix.hpp; path = include/atlas/math/Matrix.hpp; sourceTree = SOURCE_ROOT; };
+		E0D7C57DC0EF413B83432735 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/utils/Film.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Film.hpp; path = include/atlas/utils/Film.hpp; sourceTree = SOURCE_ROOT; };
+		E3CFE057D10642CF99B35EC7 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E5CA9D1C07A540C2AB873DDF /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/utils/Camera.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Camera.hpp; path = include/atlas/utils/Camera.hpp; sourceTree = SOURCE_ROOT; };
+		E84621F9D7984D7EA33F2417 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = external/glfw/src/monitor.c; sourceTree = SOURCE_ROOT; };
+		F04921B34D174C159184B771 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/core/Macros.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Macros.hpp; path = include/atlas/core/Macros.hpp; sourceTree = SOURCE_ROOT; };
+		F6E1A2C543014515BC78144C /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/Atlas.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Atlas.hpp; path = include/atlas/Atlas.hpp; sourceTree = SOURCE_ROOT; };
+		F95997CDD1554A308582C32D /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Cone.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Cone.cpp; path = source/atlas/primitives/Cone.cpp; sourceTree = SOURCE_ROOT; };
+		F960033CD026449782B098A0 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/utils/Geometry.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Geometry.hpp; path = include/atlas/utils/Geometry.hpp; sourceTree = SOURCE_ROOT; };
+		F9E61E7670314D8C92A8AAD5 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/core/Constants.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Constants.hpp; path = include/atlas/core/Constants.hpp; sourceTree = SOURCE_ROOT; };
+		FAC60F7CCE764C6583A42D32 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/math/Solvers.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Solvers.hpp; path = include/atlas/math/Solvers.hpp; sourceTree = SOURCE_ROOT; };
+		FB163F7A7F2848079640130B /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FBFFC071D68B4331B8698825 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/utils/Application.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Application.cpp; path = source/atlas/utils/Application.cpp; sourceTree = SOURCE_ROOT; };
+		FE133440BD7F45A791F2DE1B /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = external/glfw/src/internal.h; sourceTree = SOURCE_ROOT; };
+		FFD9C29271F84A3A9171B16F /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/primitives/Sphere.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Sphere.hpp; path = include/atlas/primitives/Sphere.hpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		179B98A61AE549EDB4E5A38C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				98C34AFCBEDD4FB2A0160FA9 /* atlas */,
+				910A6D917BBA4D469B927042 /* ALL_BUILD */,
+				E9646EA8408841439D225988 /* ZERO_CHECK */,
+				230AC07DDD2A42048FE8D572 /* uninstall */,
+				F8706FE4540F4836A8666EBB /* GLFW3 */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		1B446E7B4E124418B455FEA1 /* atlas */ = {
+			isa = PBXGroup;
+			children = (
+				310DEEF56A3A4FB7B33577EB /* core */,
+				7CEF2985B1E1453A937CC538 /* gl */,
+				B32CD0B551B24399A7FBDCAE /* utils */,
+				3D07A5F5ACA04B7E8993719C /* primitives */,
+			);
+			name = atlas;
+			sourceTree = "<group>";
+		};
+		230AC07DDD2A42048FE8D572 /* uninstall */ = {
+			isa = PBXGroup;
+			children = (
+				DAB0D741529A42EC81EB17C9 /* CMake Rules */,
+				06AF5B7B60E8421BB8DC18E0 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/CMakeLists.txt */,
+			);
+			name = uninstall;
+			sourceTree = "<group>";
+		};
+		3083CC3C805C455AA7FF519A /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				34EAF59F06E148FC8FF16870 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/utils/Application.hpp */,
+				E5CA9D1C07A540C2AB873DDF /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/utils/Camera.hpp */,
+				E0D7C57DC0EF413B83432735 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/utils/Film.hpp */,
+				F960033CD026449782B098A0 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/utils/Geometry.hpp */,
+				3E72B85B13E845088CAD5BAC /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/utils/RGBColour.hpp */,
+				7E2B6A4B9E194AF99CAE87BD /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/utils/Scene.hpp */,
+				AF5DE517241A42B2916EC037 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/utils/Time.hpp */,
+				52BC84AE5FF34DF3BE68E138 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/utils/Utils.hpp */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+		310DEEF56A3A4FB7B33577EB /* core */ = {
+			isa = PBXGroup;
+			children = (
+				0034E78276C04B9D9AC8B69D /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/core/Log.cpp */,
+			);
+			name = core;
+			sourceTree = "<group>";
+		};
+		3D07A5F5ACA04B7E8993719C /* primitives */ = {
+			isa = PBXGroup;
+			children = (
+				F95997CDD1554A308582C32D /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Cone.cpp */,
+				83F3ECDDC8A24742AF2B1C43 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Cube.cpp */,
+				BD86D514F3374BCBA3129DA5 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Disk.cpp */,
+				7D8A59A2D0ED41888CFDF086 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/OpenCylinder.cpp */,
+				33B7F24A72894A468BF5F581 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Primitive.cpp */,
+				C719CDEB0D9542F5865733BF /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Sphere.cpp */,
+			);
+			name = primitives;
+			sourceTree = "<group>";
+		};
+		591CBBF6676F4310B161BB06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0069061C8603430084FF5C9E /* atlas */,
+				A712CF26DA444466953AA82B /* glfw */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65A2F8FC858842DC9232DF2B = {
+			isa = PBXGroup;
+			children = (
+				179B98A61AE549EDB4E5A38C /* Sources */,
+				B67E3A52D37B475F93247F0C /* Resources */,
+				591CBBF6676F4310B161BB06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EF192A79E9C49ECB5F6D0E7 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		6FDEF5466AF04A6CBCBCAA61 /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				B95C0CA940E744BABF751021 /* Source Files */,
+				BC259521C4594713BBD21A7C /* Header Files */,
+				CCE8040AF3384EE1A44ACC19 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/CMakeLists.txt */,
+			);
+			name = glfw;
+			sourceTree = "<group>";
+		};
+		7CEF2985B1E1453A937CC538 /* gl */ = {
+			isa = PBXGroup;
+			children = (
+				9CC63664C62F4F4DA8602D82 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/gl/ErrorCheck.cpp */,
+				3C500FEC453F4A1083BB0DD3 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/gl/Shader.cpp */,
+			);
+			name = gl;
+			sourceTree = "<group>";
+		};
+		864D8807E7F24DC4A951876F /* include */ = {
+			isa = PBXGroup;
+			children = (
+				AE2FC7536642421596BE8662 /* atlas */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		8E2C0D19B0434B02ADBC6E8C /* atlas */ = {
+			isa = PBXGroup;
+			children = (
+				DB5DCCF87EF746FC81170613 /* source */,
+				864D8807E7F24DC4A951876F /* include */,
+				BA0DC25905754FAFA2A7D304 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/CMakeLists.txt */,
+			);
+			name = atlas;
+			sourceTree = "<group>";
+		};
+		8F6C181D41B94B61AE181E2D /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		910A6D917BBA4D469B927042 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				6EF192A79E9C49ECB5F6D0E7 /* CMake Rules */,
+				FB163F7A7F2848079640130B /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		956CB44D161740F5A4B97D79 /* gl */ = {
+			isa = PBXGroup;
+			children = (
+				8D3D08EF14854B2CBD9CA0D2 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/gl/ErrorCheck.hpp */,
+				74BB7465EEE1437ABD8FA62E /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/gl/GL.hpp */,
+				C8787973FEB74EF5B5FFFA44 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/gl/Shader.hpp */,
+			);
+			name = gl;
+			sourceTree = "<group>";
+		};
+		98C34AFCBEDD4FB2A0160FA9 /* atlas */ = {
+			isa = PBXGroup;
+			children = (
+				8E2C0D19B0434B02ADBC6E8C /* atlas */,
+			);
+			name = atlas;
+			sourceTree = "<group>";
+		};
+		9C58F60DB8D544909BD3A919 /* math */ = {
+			isa = PBXGroup;
+			children = (
+				B7C04DD389014F88AA17A917 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/math/Coordinates.hpp */,
+				85DB02D779C64BC5851A15B4 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/math/Math.hpp */,
+				DE95C14B74DB41CBA962635C /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/math/Matrix.hpp */,
+				2BBAA42B675141D8BD6C2B69 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/math/Quaternion.hpp */,
+				AEA32A7E1B124779A19856C7 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/math/RandomGenerator.hpp */,
+				4A3BCF8F72604B169057EFFC /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/math/Ray.hpp */,
+				FAC60F7CCE764C6583A42D32 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/math/Solvers.hpp */,
+				5D003B1EDAB14D6086252C1D /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/math/Vector.hpp */,
+			);
+			name = math;
+			sourceTree = "<group>";
+		};
+		A9889F62E51D407EAF25C05E /* core */ = {
+			isa = PBXGroup;
+			children = (
+				F9E61E7670314D8C92A8AAD5 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/core/Constants.hpp */,
+				3AD0BD1617644922AD58384D /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/core/Core.hpp */,
+				23834479469948F4979720BF /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/core/Float.hpp */,
+				178E2E8CF21A4F9E898C85BF /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/core/GLFW.hpp */,
+				61E406BFB3664C9AA2146DE5 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/core/GLI.hpp */,
+				D407C602F9644CBC92E79F2F /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/core/Log.hpp */,
+				F04921B34D174C159184B771 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/core/Macros.hpp */,
+				838FB1C28C4B44E4B22E6C3A /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/core/Platform.hpp */,
+				CDEE500BD0F34584BCCC26B2 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/core/Timer.hpp */,
+			);
+			name = core;
+			sourceTree = "<group>";
+		};
+		AE2FC7536642421596BE8662 /* atlas */ = {
+			isa = PBXGroup;
+			children = (
+				A9889F62E51D407EAF25C05E /* core */,
+				956CB44D161740F5A4B97D79 /* gl */,
+				9C58F60DB8D544909BD3A919 /* math */,
+				3083CC3C805C455AA7FF519A /* utils */,
+				F5B594C99B4445A2AC8DF57A /* primitives */,
+				F6E1A2C543014515BC78144C /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/Atlas.hpp */,
+			);
+			name = atlas;
+			sourceTree = "<group>";
+		};
+		B32CD0B551B24399A7FBDCAE /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				FBFFC071D68B4331B8698825 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/utils/Application.cpp */,
+				9FB458CFA4F74DA9B08A11E7 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/utils/Camera.cpp */,
+				AC8666323D5B4C97A926755F /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/utils/Film.cpp */,
+				0B189B076DE646F4A748C139 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/utils/Geometry.cpp */,
+				AD85783A84B54BB4879B7F31 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/utils/Scene.cpp */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+		B67E3A52D37B475F93247F0C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B95C0CA940E744BABF751021 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D07C61F81024EB39D3A374A /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_init.m */,
+				50A7BDE4004640E29FCF037F /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_monitor.m */,
+				18EE60BE80F0430F8FF72D81 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_window.m */,
+				4E39F239FDFC4975BA2EC474 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/context.c */,
+				72F824FA577C49A392B98A01 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/init.c */,
+				5A89F36C0F6A4257ABF3572D /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/input.c */,
+				D84212618AF74BFA99470887 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/iokit_joystick.m */,
+				34D363C033B14BC182A0FFFB /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/mach_time.c */,
+				E84621F9D7984D7EA33F2417 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/monitor.c */,
+				4AFDF261DAA64D27A94770B0 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/nsgl_context.m */,
+				8CF71FB030BA46AFBAC21E79 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/posix_tls.c */,
+				20A8CCF239314D30AC552BCE /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/window.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		BC259521C4594713BBD21A7C /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				245E58545F2A4B55BBE1A6F2 /* /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/glfw_config.h */,
+				60020BFAE6444464B955CE4E /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/include/GLFW/glfw3.h */,
+				5B25E09C137542D89545F63A /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/include/GLFW/glfw3native.h */,
+				152AB88725124750880F6F7A /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_platform.h */,
+				FE133440BD7F45A791F2DE1B /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/internal.h */,
+				9DD7B56FFCED460591D80B38 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/iokit_joystick.h */,
+				6C632A81E89B481DA17D337E /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/nsgl_context.h */,
+				48BF5B6F1446459FA791B4F4 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/posix_tls.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		DAB0D741529A42EC81EB17C9 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		DB5DCCF87EF746FC81170613 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				1B446E7B4E124418B455FEA1 /* atlas */,
+			);
+			name = source;
+			sourceTree = "<group>";
+		};
+		E9646EA8408841439D225988 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				8F6C181D41B94B61AE181E2D /* CMake Rules */,
+				E3CFE057D10642CF99B35EC7 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		F5B594C99B4445A2AC8DF57A /* primitives */ = {
+			isa = PBXGroup;
+			children = (
+				A0143B1CEF894F0D9109EEFB /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/primitives/Cone.hpp */,
+				0C558EF4DD194C6F94CBCDD1 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/primitives/Cube.hpp */,
+				3FA0ECC253034B6184D3BACB /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/primitives/Disk.hpp */,
+				AA1C7D2ED2C8452DB2632D7A /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/primitives/OpenCylinder.hpp */,
+				D559BBEB1E0E40379636DE93 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/primitives/Primitive.hpp */,
+				C0C5AEBDE25C495E9AF3EC74 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/primitives/Primitives.hpp */,
+				FFD9C29271F84A3A9171B16F /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/primitives/Sphere.hpp */,
+			);
+			name = primitives;
+			sourceTree = "<group>";
+		};
+		F8706FE4540F4836A8666EBB /* GLFW3 */ = {
+			isa = PBXGroup;
+			children = (
+				6FDEF5466AF04A6CBCBCAA61 /* glfw */,
+			);
+			name = GLFW3;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87174CBAD92047A29890B454 /* glfw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2526D8418C514187B3E3A93B /* Build configuration list for PBXNativeTarget "glfw" */;
+			buildPhases = (
+				04CA2B28294F40D3A70D2C5C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63DD0B91B6414798A03511E2 /* PBXTargetDependency */,
+			);
+			name = glfw;
+			productName = glfw;
+			productReference = A712CF26DA444466953AA82B /* glfw */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F0C5789BA166434CACE4EBFD /* atlas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6444C3FDDAF49B993A2A319 /* Build configuration list for PBXNativeTarget "atlas" */;
+			buildPhases = (
+				9A47589C01EB4A3C805CB72B /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E426F8C748743878EE79F57 /* PBXTargetDependency */,
+				EEFBD12B8B31442D9D84192A /* PBXTargetDependency */,
+			);
+			name = atlas;
+			productName = atlas;
+			productReference = 0069061C8603430084FF5C9E /* atlas */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90D16FD6968A41C6A58A3853 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 4CEFA937F18E4065B6BD5B2A /* Build configuration list for PBXProject "atlas" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				D0EE31FFA6CF4E1EA92B175B /* Debug */,
+				77866BE9AC7D42F2A54E6942 /* Release */,
+				11795EA1BA7A48738F6AA7C5 /* MinSizeRel */,
+				7237979164764758AA691775 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 65A2F8FC858842DC9232DF2B;
+			projectDirPath = ../../../lib/atlas;
+			projectRoot = "";
+			targets = (
+				1A5CFE32B1704FFEA4117D12 /* ALL_BUILD */,
+				ED64C81619684CC7B2B6876C /* ZERO_CHECK */,
+				F0C5789BA166434CACE4EBFD /* atlas */,
+				5DAB50CF22174C75A0352440 /* install */,
+				B842BA545D8942DEAFE01F06 /* uninstall */,
+				87174CBAD92047A29890B454 /* glfw */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17DFB1C026F0475FA5B94104 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		32AAD56502C34134A89E7549 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas -f /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		3DA7F0B529014C2BAF24D342 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		5C3E862BD7F8404DAE5C9307 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas -f /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		6BFC1E297FC7475B84E9B5ED /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas -f /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		9A80FBCFB0F24DA0983A0848 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw -f /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/CMakeScripts/uninstall_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		AAA52E20A48C4214AA7A6F63 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		CFADAB1CE5D64B2B9F85AC8A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04CA2B28294F40D3A70D2C5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7D9E31FC4A1459AADC9336C /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_init.m */,
+				EB95291E05E1477EA6FB2A75 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_monitor.m */,
+				FD50F5E288BA4FCBB2F0352F /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_window.m */,
+				F8A1245073024BD193558029 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/context.c */,
+				3A34DDD3E3A444DF965AF352 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/init.c */,
+				7091F2D5FFE3416A889D50CF /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/input.c */,
+				41D6895D3DDA45B5BB7339B4 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/iokit_joystick.m */,
+				46F9E7B68D67470F990C9373 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/mach_time.c */,
+				ECE7662FE9224C4283B82405 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/monitor.c */,
+				208AB1D0B8504ABCB7145528 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/nsgl_context.m */,
+				6577FC03A69543A6A464FA8D /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/posix_tls.c */,
+				766539158E154CBB807C29E9 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/window.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A47589C01EB4A3C805CB72B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCCBA740B4504E618260B4B1 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/core/Log.cpp */,
+				A3F5FFAA630249559F5CFE84 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/gl/ErrorCheck.cpp */,
+				C4018AEDFFB54C04BFCEB19F /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/gl/Shader.cpp */,
+				07DF45A1EC0C400CB82F780F /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Cone.cpp */,
+				D2D191985C2A47DE9D538051 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Cube.cpp */,
+				4FD6DA96F5594FA4A514FDBD /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Disk.cpp */,
+				DC4C556C1BE14AA38626E520 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/OpenCylinder.cpp */,
+				8E594FFFEAD04834884A45C1 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Primitive.cpp */,
+				DDBF98C4A8B440848B96F7F4 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Sphere.cpp */,
+				DEE663243A1D4EB9B57AB3DE /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/utils/Application.cpp */,
+				67084E84D917498FB626A42D /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/utils/Camera.cpp */,
+				2364176D259F4B4C9B6FE2C9 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/utils/Film.cpp */,
+				C6DB69D69DC9431E9D38BD9D /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/utils/Geometry.cpp */,
+				AC2C0E63130E4AA8806EF134 /* /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/utils/Scene.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		110DBEC51D3D47BDB11E6213 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A5CFE32B1704FFEA4117D12 /* ALL_BUILD */;
+			targetProxy = 2E6C08DAE4DF43BF901871D5 /* PBXContainerItemProxy */;
+		};
+		63DD0B91B6414798A03511E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED64C81619684CC7B2B6876C /* ZERO_CHECK */;
+			targetProxy = 8019C58B632D4981970C1233 /* PBXContainerItemProxy */;
+		};
+		80B0F8A63B71496C84616FD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED64C81619684CC7B2B6876C /* ZERO_CHECK */;
+			targetProxy = 820483CA94FE4BFA8BB08002 /* PBXContainerItemProxy */;
+		};
+		8886373CC17C4901BC39DED0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0C5789BA166434CACE4EBFD /* atlas */;
+			targetProxy = 984C09162A2A479BBE2161C7 /* PBXContainerItemProxy */;
+		};
+		9E426F8C748743878EE79F57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87174CBAD92047A29890B454 /* glfw */;
+			targetProxy = CB294B0760A24A519C2A182B /* PBXContainerItemProxy */;
+		};
+		DEC5F2D1B5AD4B6F8FC8326C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87174CBAD92047A29890B454 /* glfw */;
+			targetProxy = 63AF90C9E29D438D89611579 /* PBXContainerItemProxy */;
+		};
+		EEFBD12B8B31442D9D84192A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED64C81619684CC7B2B6876C /* ZERO_CHECK */;
+			targetProxy = AA06900A32244EFD97838E82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05FA1B840AA7458B8A465531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		0C873FFD55B94586AF81BAC2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/include, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glm, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/gli, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		161DDEFF3C594D43B1030B2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/include, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glm, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/gli, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -Wall -std=c++11 -stdlib=libc++ -Wall -std=c++11 -stdlib=libc++     -DNDEBUG  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = atlas;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		1AA3C8727E9147229EC4C799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", _GLFW_USE_CONFIG_H, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src, /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC   -Wall";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		266E3AC842E94CE691F94F5E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/include, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glm, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/gli, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -Wall -std=c++11 -stdlib=libc++ -Wall -std=c++11 -stdlib=libc++     -DNDEBUG  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = atlas;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		35FF4548E28443FBB7AFACD3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk;
+				SYMROOT = /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/build;
+			};
+			name = RelWithDebInfo;
+		};
+		47699D8CD76143C58F23CFAE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", _GLFW_USE_CONFIG_H, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src, /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG -fPIC   -Wall";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		4A9BD252FAEE4DD79F17E369 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/include, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glm, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/gli, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		4B81C4B76B244EA187282538 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/include, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glm, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/gli, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		52E3D35F011A4100B2BB5A4A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk;
+				SYMROOT = /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/build;
+			};
+			name = MinSizeRel;
+		};
+		63DAB79D108A4B47B2A5FD48 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/include, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glm, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/gli, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		740E88C978B04CFE855046ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/include, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glm, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/gli, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		7E86903DF44C4444A02F4BE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk;
+				SYMROOT = /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/build;
+			};
+			name = Debug;
+		};
+		82DE0428503E45AB8DE7E974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/include, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glm, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/gli, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		8629D7084B534879B329518F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		87551474C3244BACAE99AD9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/include, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glm, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/gli, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		8BF4525D61FA42E5B75694DB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/include, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glm, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/gli, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		917ECEADB50F4597A1A800B8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		9A32E83B51C54212A4182053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/include, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glm, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/gli, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		9F5901DC647342B68E70E37D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", _GLFW_USE_CONFIG_H, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src, /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "   -fPIC   -Wall";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		B1331B74B2954F8C95E0ACEE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/include, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glm, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/gli, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -Wall -std=c++11 -stdlib=libc++ -Wall -std=c++11 -stdlib=libc++        -DNDEBUG  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = atlas;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		B5F9FF9EB15E4762910857E9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		B6686D169279413693E1BABD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk;
+				SYMROOT = /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/build;
+			};
+			name = Release;
+		};
+		C1AB6B1E206945F98284EF2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/include, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glm, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/gli, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		E1889C8921464DD59EF7062D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/include, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glm, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/gli, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		E92A7B9A7893469FA3AFF554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/include, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glm, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/gli, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = " -Wall -std=c++11 -stdlib=libc++ -Wall -std=c++11 -stdlib=libc++     ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = atlas;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		F1BD9D80F81E471C8F91E6B6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", _GLFW_USE_CONFIG_H, );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src, /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src, );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC   -Wall";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		F8512DCBF4044EE7A5E70619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/include, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glm, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/gli, /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2526D8418C514187B3E3A93B /* Build configuration list for PBXNativeTarget "glfw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F5901DC647342B68E70E37D /* Debug */,
+				1AA3C8727E9147229EC4C799 /* Release */,
+				F1BD9D80F81E471C8F91E6B6 /* MinSizeRel */,
+				47699D8CD76143C58F23CFAE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4CEFA937F18E4065B6BD5B2A /* Build configuration list for PBXProject "atlas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E86903DF44C4444A02F4BE2 /* Debug */,
+				B6686D169279413693E1BABD /* Release */,
+				52E3D35F011A4100B2BB5A4A /* MinSizeRel */,
+				35FF4548E28443FBB7AFACD3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6AAD0F9872A9422091D41A1D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1AB6B1E206945F98284EF2D /* Debug */,
+				F8512DCBF4044EE7A5E70619 /* Release */,
+				63DAB79D108A4B47B2A5FD48 /* MinSizeRel */,
+				4B81C4B76B244EA187282538 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7CC7052B78794B789F86DBA1 /* Build configuration list for PBXAggregateTarget "uninstall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8629D7084B534879B329518F /* Debug */,
+				05FA1B840AA7458B8A465531 /* Release */,
+				B5F9FF9EB15E4762910857E9 /* MinSizeRel */,
+				917ECEADB50F4597A1A800B8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A88A6C93EF15440BBFA9BDF5 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87551474C3244BACAE99AD9E /* Debug */,
+				9A32E83B51C54212A4182053 /* Release */,
+				E1889C8921464DD59EF7062D /* MinSizeRel */,
+				0C873FFD55B94586AF81BAC2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B134BFB1E5AB4DF6BA8CD76F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				740E88C978B04CFE855046ED /* Debug */,
+				82DE0428503E45AB8DE7E974 /* Release */,
+				8BF4525D61FA42E5B75694DB /* MinSizeRel */,
+				4A9BD252FAEE4DD79F17E369 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F6444C3FDDAF49B993A2A319 /* Build configuration list for PBXNativeTarget "atlas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E92A7B9A7893469FA3AFF554 /* Debug */,
+				161DDEFF3C594D43B1030B2F /* Release */,
+				266E3AC842E94CE691F94F5E /* MinSizeRel */,
+				B1331B74B2954F8C95E0ACEE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90D16FD6968A41C6A58A3853 /* Project object */;
+}
