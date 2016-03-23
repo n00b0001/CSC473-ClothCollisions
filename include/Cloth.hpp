@@ -11,20 +11,20 @@
 class Cloth : public atlas::utils::Geometry
 {
 public:
-    Cloth(Table t);
+    Cloth(Table &t);
     ~Cloth();
 
     void updateGeometry(atlas::utils::Time const& t) override;
     void renderGeometry(atlas::math::Matrix4 projection, atlas::math::Matrix4 view) override;
     void resetGeometry() override;
-    bool testCollision(PointMass p, Table t);
+    bool testCollision(PointMass *p);
 
 private:
     int numX;
     int numY;
     std::vector<std::vector<PointMass*> > mBalls;
     std::vector<Spring*> mSprings;
-    Table mSphere;
+    Table& mSphere;
 };
 
 

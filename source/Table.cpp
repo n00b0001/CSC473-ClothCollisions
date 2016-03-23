@@ -1,5 +1,6 @@
 #include "Table.hpp"
 #include "ShaderPaths.hpp"
+#include <atlas/gl/ErrorCheck.hpp>
 
 Table::Table(float r) :
     radius(r),
@@ -9,15 +10,12 @@ Table::Table(float r) :
     USING_ATLAS_MATH_NS;
     USING_ATLAS_GL_NS;
 
-    glGenVertexArrays(1, &mVao);
-    glBindVertexArray(mVao);
-
     std::string shaderDir = generated::ShaderPaths::getShaderDirectory();
 
     std::vector<ShaderInfo> shaders
     {
-        { GL_VERTEX_SHADER, shaderDir + "cube.vs.glsl" },
-        { GL_FRAGMENT_SHADER, shaderDir + "cube.fs.glsl" }
+        { GL_VERTEX_SHADER, shaderDir + "ball.vs.glsl" },
+        { GL_FRAGMENT_SHADER, shaderDir + "ball.fs.glsl" }
     };
 
     mShaders.push_back(ShaderPointer(new Shader));

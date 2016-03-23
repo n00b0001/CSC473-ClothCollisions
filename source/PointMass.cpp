@@ -109,5 +109,5 @@ void PointMass::setVelocity(atlas::math::Vector v)
 void PointMass::collides()
 {
     collisions++;
-    if (collisions > 5) setAnchored(true);
+//    if (collisions > 5) setAnchored(true);
 }

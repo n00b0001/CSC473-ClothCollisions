@@ -4,7 +4,7 @@
 #include <cmath>
 #include <iostream>
 
-Cloth::Cloth(Table t) :
+Cloth::Cloth(Table& t) :
     numX(0),
     numY(0),
     mSphere(t)
@@ -53,7 +53,7 @@ void Cloth::updateGeometry(const atlas::utils::Time &t)
 
     // Reset forces on PointMass objects to zero
     for (auto column : mBalls)
-        for (PointMass *ball : column)
+        for (PointMass* ball : column)
         {
 /*            Vector p = ball->getPos();
             Vector wind(sinf(p.x*p.y*t.currentTime),
@@ -63,15 +63,23 @@ void Cloth::updateGeometry(const atlas::utils::Time &t)
         }
 
     // Tell the springs to update their forces
-    for (Spring *spring : mSprings)
+    for (Spring* spring : mSprings)
     {
         spring->updateSpring(t);
     }
 
     // Tell the point mass objects to update their positions based on the spring forces
     for (auto column : mBalls)
-        for (PointMass *ball : column)
+        for (PointMass* ball : column)
+        {
             if(!ball->isAnchored()) ball->updateGeometry(t);
+            if (testCollision(ball))
+            {
+                Vector p = ball->getPos();
+                Vector n = glm::normalize(p - mSphere.getPos());
+                ball->setPos(mSphere.getRad() * n);
+            }
+        }
 }
 
 void Cloth::renderGeometry(atlas::math::Matrix4 projection, atlas::math::Matrix4 view)
@@ -88,15 +96,15 @@ void Cloth::renderGeometry(atlas::math::Matrix4 projection, atlas::math::Matrix4
 void Cloth::resetGeometry()
 { }
 
-bool Cloth::testCollision(PointMass p, Table t)
+bool Cloth::testCollision(PointMass* p)
 {
     USING_ATLAS_MATH_NS;
-    Vector Tpos = t.getPos();
-    Vector Ppos = p.getPos();
+    Vector Tpos = mSphere.getPos();
+    Vector Ppos = p->getPos();
     Vector distance = Tpos - Ppos;
-    if (distance.length() <= t.getRad())
+    if (distance.length() <= mSphere.getRad())
     {
-        p.collides();
+        p->collides();
         return true;
     }
     return false;
