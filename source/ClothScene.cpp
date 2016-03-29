@@ -147,12 +147,11 @@ void ClothScene::renderScene()
 
 void ClothScene::updateScene(double time)
 {
-
     if (mIsPlaying)
         {
             // Handle the timing stuff here.
             mTime.deltaTime = (float)time - mTime.currentTime;
-            mTime.totalTime += (float)time;
+            mTime.totalTime += mTime.deltaTime;
             mTime.currentTime = (float)time;
 
             mTime.deltaTime *= 2.0f;

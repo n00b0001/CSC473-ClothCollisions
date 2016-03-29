@@ -7,8 +7,9 @@ PointMass::PointMass(glm::vec3 pos) :
     mPMass(0.2f, 5, 5),
     mVelocity(0.0f),
     currPos(pos),
-    mass(0.01f),
-    collisions(0)
+    mass(0.001f),
+    collisions(0),
+    isAnchor(false)
 {
     USING_ATLAS_MATH_NS;
     USING_ATLAS_GL_NS;
@@ -109,5 +110,5 @@ void PointMass::setVelocity(atlas::math::Vector v)
 void PointMass::collides()
 {
     collisions++;
-//    if (collisions > 5) setAnchored(true);
+    if (collisions > 500) setAnchored(true);
 }

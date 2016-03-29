@@ -9,8 +9,8 @@ Spring::Spring(float l, PointMass *a, PointMass *b) :
     mRestLen(l),
     b1(a),
     b2(b),
-    hooke(30.0f),
-    damping(1.0f)
+    hooke(150.0f),
+    damping(100.0f)
 { }
 
 Spring::~Spring() { }

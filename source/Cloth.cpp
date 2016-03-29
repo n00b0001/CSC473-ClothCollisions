@@ -54,13 +54,7 @@ void Cloth::updateGeometry(const atlas::utils::Time &t)
     // Reset forces on PointMass objects to zero
     for (auto column : mBalls)
         for (PointMass* ball : column)
-        {
-/*            Vector p = ball->getPos();
-            Vector wind(sinf(p.x*p.y*t.currentTime),
-                        cosf(p.z*t.currentTime),
-                        sinf(cosf(5.0f*p.x*p.y*p.z)));*/
             ball->setForce(grav);
-        }
 
     // Tell the springs to update their forces
     for (Spring* spring : mSprings)
@@ -72,12 +66,14 @@ void Cloth::updateGeometry(const atlas::utils::Time &t)
     for (auto column : mBalls)
         for (PointMass* ball : column)
         {
-            if(!ball->isAnchored()) ball->updateGeometry(t);
-            if (testCollision(ball))
+            if (!ball->isAnchored())
             {
-                Vector p = ball->getPos();
-                Vector n = glm::normalize(p - mSphere.getPos());
-                ball->setPos(mSphere.getRad() * n);
+                ball->updateGeometry(t);
+                if (testCollision(ball))
+                {
+                    Vector n = glm::normalize(ball->getPos() - mSphere.getPos());
+                    ball->setPos((mSphere.getRad()+0.001f) * n);
+                }
             }
         }
 }
@@ -99,10 +95,10 @@ void Cloth::resetGeometry()
 bool Cloth::testCollision(PointMass* p)
 {
     USING_ATLAS_MATH_NS;
-    Vector Tpos = mSphere.getPos();
-    Vector Ppos = p->getPos();
-    Vector distance = Tpos - Ppos;
-    if (distance.length() <= mSphere.getRad())
+    Vector dist = p->getPos() - mSphere.getPos();
+    float length = dist.x * dist.x + dist.y * dist.y + dist.z * dist.z;
+    length = sqrtf(length);
+    if (length <= mSphere.getRad())
     {
         p->collides();
         return true;
