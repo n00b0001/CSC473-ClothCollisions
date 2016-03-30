@@ -1,477 +1,0 @@
-Tglfw
-v6
-r1
-cCheck dependencies
-cCompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_init.o /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_init.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_monitor.o /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_monitor.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_window.o /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_window.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/context.o /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/context.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/init.o /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/init.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/input.o /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/input.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/iokit_joystick.o /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/iokit_joystick.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/mach_time.o /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/mach_time.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/monitor.o /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/monitor.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/nsgl_context.o /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/nsgl_context.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/posix_tls.o /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/posix_tls.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/window.o /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/window.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-cLibtool /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/Debug/libglfw3.a normal x86_64
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
-c000000005228144B00000000000000AA
-t1378358347
-s170
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/SDKSettings.plist
-c000000005350163F00000000000004B3
-t1397757503
-s1203
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/CoreServices/SystemVersion.plist
-c000000005350163F00000000000001DE
-t1397757503
-s478
-
-N/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/Debug/libglfw3.a
-t2
-s0
-
-N/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_init.o
-t1455411276
-s9280
-
-N/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_monitor.o
-t1455411276
-s21820
-
-N/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_window.o
-t1455411276
-s123556
-
-N/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/context.o
-t1455411276
-s22408
-
-N/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/glfw3.LinkFileList
-c0000000056BFD04B0000000000000678
-t1455411275
-s1656
-
-N/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/init.o
-t1455411276
-s18280
-
-N/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/input.o
-t1455411276
-s29744
-
-N/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/iokit_joystick.o
-t1455411277
-s23096
-
-N/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/mach_time.o
-t1455411276
-s4960
-
-N/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/monitor.o
-t1455411277
-s23148
-
-N/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/nsgl_context.o
-t1455411277
-s32120
-
-N/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/posix_tls.o
-t1455411277
-s10008
-
-N/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/window.o
-t1455411277
-s33808
-
-N/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_init.m
-c0000000056BE2A000000000000002462
-t1455303168
-s9314
-
-N/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_monitor.m
-c0000000056BE2A000000000000003194
-t1455303168
-s12692
-
-N/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_window.m
-c0000000056BE2A00000000000000938E
-t1455303168
-s37774
-
-N/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/context.c
-c0000000056BE2A0000000000000051B7
-t1455303168
-s20919
-
-N/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/init.c
-c0000000056BE2A0000000000000015DE
-t1455303168
-s5598
-
-N/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/input.c
-c0000000056BE2A000000000000004063
-t1455303168
-s16483
-
-N/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/iokit_joystick.m
-c0000000056BE2A000000000000003E35
-t1455303168
-s15925
-
-N/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/mach_time.c
-c0000000056BE2A00000000000000090A
-t1455303168
-s2314
-
-N/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/monitor.c
-c0000000056BE2A000000000000002F68
-t1455303168
-s12136
-
-N/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/nsgl_context.m
-c0000000056BE2A0000000000000025D1
-t1455303168
-s9681
-
-N/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/posix_tls.c
-c0000000056BE2A000000000000000905
-t1455303168
-s2309
-
-N/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/window.c
-c0000000056BE2A00000000000000523C
-t1455303168
-s21052
-
-CBuild AST from /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_init.m
-r0
-
-CBuild AST from /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_monitor.m
-r0
-
-CBuild AST from /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_window.m
-r0
-
-CBuild AST from /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/context.c
-r0
-
-CBuild AST from /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/init.c
-r0
-
-CBuild AST from /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/input.c
-r0
-
-CBuild AST from /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/iokit_joystick.m
-r0
-
-CBuild AST from /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/mach_time.c
-r0
-
-CBuild AST from /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/monitor.c
-r0
-
-CBuild AST from /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/nsgl_context.m
-r0
-
-CBuild AST from /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/posix_tls.c
-r0
-
-CBuild AST from /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/window.c
-r0
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies58c6dacb0770bc41^938ee2cb0770bc41^---0#1#1#--18"Check dependencies36"5972CED9-B47A-491E-8FBA-632F7F180A80-
-
-CCompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_init.o /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_init.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s477104075.886804
-e477104076.562459
-r1
-xCompileC
-xbuild/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_init.o
-x/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_init.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_init.m
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/internal.h
-d/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/glfw_config.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/include/GLFW/glfw3.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/deps/GL/glext.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_platform.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/posix_tls.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/iokit_joystick.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/nsgl_context.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_init.m222"CompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_init.o lib/atlas/external/glfw/src/cocoa_init.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler9c17e3cb0770bc41^54fc8fcc0770bc41^---0#0#1#-19%DVTDocumentLocation2@92"file://localhost/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_init.m0000000000000000^2627"CompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_init.o lib/atlas/external/glfw/src/cocoa_init.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nburrell/Desktop/CSC473/Ass2    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCMAKE_INTDIR=\"Debug\" -D_GLFW_USE_CONFIG_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/Debug/include -I/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/DerivedSources/x86_64 -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/Debug -fPIC -Wall -MMD -MT dependencies -MF /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_init.d --serialize-diagnostics /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_init.dia -c /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_init.m -o /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_init.o36"28F1C909-85D9-4594-B425-20C0A5B4F8F5-
-b3C0E9C2B-A415-4BE1-BA22-B1452959A1A1
-
-CCompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_monitor.o /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_monitor.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s477104075.886831
-e477104076.562930
-r1
-xCompileC
-xbuild/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_monitor.o
-x/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_monitor.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_monitor.m
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/internal.h
-d/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/glfw_config.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/include/GLFW/glfw3.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/deps/GL/glext.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_platform.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/posix_tls.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/iokit_joystick.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/nsgl_context.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_monitor.m228"CompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_monitor.o lib/atlas/external/glfw/src/cocoa_monitor.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler4418e3cb0770bc41^821c90cc0770bc41^---0#0#1#-19%DVTDocumentLocation2@95"file://localhost/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_monitor.m0000000000000000^2645"CompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_monitor.o lib/atlas/external/glfw/src/cocoa_monitor.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nburrell/Desktop/CSC473/Ass2    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCMAKE_INTDIR=\"Debug\" -D_GLFW_USE_CONFIG_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/Debug/include -I/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/DerivedSources/x86_64 -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/Debug -fPIC -Wall -MMD -MT dependencies -MF /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_monitor.d --serialize-diagnostics /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_monitor.dia -c /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_monitor.m -o /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_monitor.o36"77E25753-3671-408D-A28A-E7C37C459B74-
-b3C0E9C2B-A415-4BE1-BA22-B1452959A1A1
-
-CCompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_window.o /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_window.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s477104075.886838
-e477104076.626424
-r1
-xCompileC
-xbuild/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_window.o
-x/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_window.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_window.m
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/internal.h
-d/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/glfw_config.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/include/GLFW/glfw3.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/deps/GL/glext.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_platform.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/posix_tls.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/iokit_joystick.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/nsgl_context.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_window.m226"CompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_window.o lib/atlas/external/glfw/src/cocoa_window.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler8718e3cb0770bc41^ac6fa0cc0770bc41^---0#0#1#-19%DVTDocumentLocation2@94"file://localhost/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_window.m0000000000000000^2639"CompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_window.o lib/atlas/external/glfw/src/cocoa_window.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nburrell/Desktop/CSC473/Ass2    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCMAKE_INTDIR=\"Debug\" -D_GLFW_USE_CONFIG_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/Debug/include -I/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/DerivedSources/x86_64 -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/Debug -fPIC -Wall -MMD -MT dependencies -MF /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_window.d --serialize-diagnostics /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_window.dia -c /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_window.m -o /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/cocoa_window.o36"BD535724-DCAD-4DDD-B76C-2C591598B48E-
-b3C0E9C2B-A415-4BE1-BA22-B1452959A1A1
-
-CCompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/context.o /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/context.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-s477104076.013015
-e477104076.429992
-r1
-xCompileC
-xbuild/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/context.o
-x/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/context.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/context.c
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/internal.h
-d/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/glfw_config.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/include/GLFW/glfw3.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/deps/GL/glext.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_platform.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/posix_tls.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/iokit_joystick.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/nsgl_context.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/context.c206"CompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/context.o lib/atlas/external/glfw/src/context.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler236503cc0770bc41^90136ecc0770bc41^---0#0#1#-19%DVTDocumentLocation2@89"file://localhost/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/context.c0000000000000000^2396"CompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/context.o lib/atlas/external/glfw/src/context.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nburrell/Desktop/CSC473/Ass2    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -D_GLFW_USE_CONFIG_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/Debug/include -I/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/DerivedSources/x86_64 -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/Debug -fPIC -Wall -MMD -MT dependencies -MF /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/context.d --serialize-diagnostics /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/context.dia -c /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/context.c -o /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/context.o36"FBAD7466-2EF2-44FA-9E8B-AAE35B254329-
-b3C0E9C2B-A415-4BE1-BA22-B1452959A1A1
-
-CCompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/init.o /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/init.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-s477104076.432602
-e477104076.762429
-r1
-xCompileC
-xbuild/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/init.o
-x/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/init.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/init.c
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/internal.h
-d/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/glfw_config.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/include/GLFW/glfw3.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/deps/GL/glext.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_platform.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/posix_tls.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/iokit_joystick.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/nsgl_context.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/init.c200"CompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/init.o lib/atlas/external/glfw/src/init.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler81d06ecc0770bc41^2941c3cc0770bc41^---0#0#1#-19%DVTDocumentLocation2@86"file://localhost/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/init.c0000000000000000^2378"CompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/init.o lib/atlas/external/glfw/src/init.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nburrell/Desktop/CSC473/Ass2    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -D_GLFW_USE_CONFIG_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/Debug/include -I/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/DerivedSources/x86_64 -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/Debug -fPIC -Wall -MMD -MT dependencies -MF /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/init.d --serialize-diagnostics /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/init.dia -c /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/init.c -o /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/init.o36"1C92AEE4-7340-480A-876E-B426E5D950F4-
-b3C0E9C2B-A415-4BE1-BA22-B1452959A1A1
-
-CCompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/input.o /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/input.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-s477104076.563841
-e477104076.883785
-r1
-xCompileC
-xbuild/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/input.o
-x/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/input.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/input.c
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/internal.h
-d/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/glfw_config.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/include/GLFW/glfw3.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/deps/GL/glext.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_platform.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/posix_tls.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/iokit_joystick.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/nsgl_context.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/input.c202"CompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/input.o lib/atlas/external/glfw/src/input.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler776890cc0770bc41^ff3fe2cc0770bc41^---0#0#1#-19%DVTDocumentLocation2@87"file://localhost/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/input.c0000000000000000^2384"CompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/input.o lib/atlas/external/glfw/src/input.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nburrell/Desktop/CSC473/Ass2    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -D_GLFW_USE_CONFIG_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/Debug/include -I/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/DerivedSources/x86_64 -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/Debug -fPIC -Wall -MMD -MT dependencies -MF /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/input.d --serialize-diagnostics /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/input.dia -c /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/input.c -o /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/input.o36"3BE6A78D-D01B-4698-BD0E-D169A570546E-
-b3C0E9C2B-A415-4BE1-BA22-B1452959A1A1
-
-CCompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/iokit_joystick.o /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/iokit_joystick.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s477104076.563943
-e477104077.039213
-r1
-xCompileC
-xbuild/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/iokit_joystick.o
-x/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/iokit_joystick.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/iokit_joystick.m
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/internal.h
-d/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/glfw_config.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/include/GLFW/glfw3.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/deps/GL/glext.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_platform.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/posix_tls.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/iokit_joystick.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/nsgl_context.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/iokit_joystick.m230"CompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/iokit_joystick.o lib/atlas/external/glfw/src/iokit_joystick.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler156f90cc0770bc41^310a0acd0770bc41^---0#0#1#-19%DVTDocumentLocation2@96"file://localhost/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/iokit_joystick.m0000000000000000^2651"CompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/iokit_joystick.o lib/atlas/external/glfw/src/iokit_joystick.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nburrell/Desktop/CSC473/Ass2    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCMAKE_INTDIR=\"Debug\" -D_GLFW_USE_CONFIG_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/Debug/include -I/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/DerivedSources/x86_64 -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/Debug -fPIC -Wall -MMD -MT dependencies -MF /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/iokit_joystick.d --serialize-diagnostics /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/iokit_joystick.dia -c /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/iokit_joystick.m -o /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/iokit_joystick.o36"0B079168-76EE-4243-829B-79EFF2D85878-
-b3C0E9C2B-A415-4BE1-BA22-B1452959A1A1
-
-CCompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/mach_time.o /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/mach_time.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-s477104076.627716
-e477104076.929270
-r1
-xCompileC
-xbuild/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/mach_time.o
-x/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/mach_time.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/mach_time.c
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/internal.h
-d/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/glfw_config.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/include/GLFW/glfw3.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/deps/GL/glext.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_platform.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/posix_tls.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/iokit_joystick.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/nsgl_context.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/mach_time.c210"CompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/mach_time.o lib/atlas/external/glfw/src/mach_time.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler94c2a0cc0770bc41^51f7edcc0770bc41^---0#0#1#-19%DVTDocumentLocation2@91"file://localhost/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/mach_time.c0000000000000000^2408"CompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/mach_time.o lib/atlas/external/glfw/src/mach_time.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nburrell/Desktop/CSC473/Ass2    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -D_GLFW_USE_CONFIG_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/Debug/include -I/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/DerivedSources/x86_64 -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/Debug -fPIC -Wall -MMD -MT dependencies -MF /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/mach_time.d --serialize-diagnostics /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/mach_time.dia -c /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/mach_time.c -o /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/mach_time.o36"502CCF55-99BD-4889-883C-FA0527D717E9-
-b3C0E9C2B-A415-4BE1-BA22-B1452959A1A1
-
-CCompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/monitor.o /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/monitor.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-s477104076.763734
-e477104077.092906
-r1
-xCompileC
-xbuild/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/monitor.o
-x/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/monitor.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/monitor.c
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/internal.h
-d/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/glfw_config.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/include/GLFW/glfw3.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/deps/GL/glext.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_platform.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/posix_tls.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/iokit_joystick.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/nsgl_context.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/monitor.c206"CompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/monitor.o lib/atlas/external/glfw/src/monitor.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compilerff93c3cc0770bc41^57cd17cd0770bc41^---0#0#1#-19%DVTDocumentLocation2@89"file://localhost/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/monitor.c0000000000000000^2396"CompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/monitor.o lib/atlas/external/glfw/src/monitor.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nburrell/Desktop/CSC473/Ass2    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -D_GLFW_USE_CONFIG_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/Debug/include -I/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/DerivedSources/x86_64 -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/Debug -fPIC -Wall -MMD -MT dependencies -MF /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/monitor.d --serialize-diagnostics /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/monitor.dia -c /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/monitor.c -o /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/monitor.o36"8E3C0D87-35EF-4696-98D8-12ECE739FD6A-
-b3C0E9C2B-A415-4BE1-BA22-B1452959A1A1
-
-CCompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/nsgl_context.o /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/nsgl_context.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s477104076.885188
-e477104077.316304
-r1
-xCompileC
-xbuild/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/nsgl_context.o
-x/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/nsgl_context.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/nsgl_context.m
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/internal.h
-d/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/glfw_config.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/include/GLFW/glfw3.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/deps/GL/glext.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_platform.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/posix_tls.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/iokit_joystick.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/nsgl_context.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/nsgl_context.m226"CompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/nsgl_context.o lib/atlas/external/glfw/src/nsgl_context.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler43ace2cc0770bc41^ecfb50cd0770bc41^---0#0#1#-19%DVTDocumentLocation2@94"file://localhost/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/nsgl_context.m0000000000000000^2639"CompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/nsgl_context.o lib/atlas/external/glfw/src/nsgl_context.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nburrell/Desktop/CSC473/Ass2    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCMAKE_INTDIR=\"Debug\" -D_GLFW_USE_CONFIG_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/Debug/include -I/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/DerivedSources/x86_64 -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/Debug -fPIC -Wall -MMD -MT dependencies -MF /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/nsgl_context.d --serialize-diagnostics /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/nsgl_context.dia -c /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/nsgl_context.m -o /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/nsgl_context.o36"21A4C31F-D8A9-4168-8496-3067B9C5C723-
-b3C0E9C2B-A415-4BE1-BA22-B1452959A1A1
-
-CCompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/posix_tls.o /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/posix_tls.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-s477104076.930584
-e477104077.222990
-r1
-xCompileC
-xbuild/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/posix_tls.o
-x/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/posix_tls.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/posix_tls.c
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/internal.h
-d/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/glfw_config.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/include/GLFW/glfw3.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/deps/GL/glext.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_platform.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/posix_tls.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/iokit_joystick.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/nsgl_context.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/posix_tls.c210"CompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/posix_tls.o lib/atlas/external/glfw/src/posix_tls.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler344beecc0770bc41^f81739cd0770bc41^---0#0#1#-19%DVTDocumentLocation2@91"file://localhost/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/posix_tls.c0000000000000000^2408"CompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/posix_tls.o lib/atlas/external/glfw/src/posix_tls.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nburrell/Desktop/CSC473/Ass2    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -D_GLFW_USE_CONFIG_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/Debug/include -I/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/DerivedSources/x86_64 -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/Debug -fPIC -Wall -MMD -MT dependencies -MF /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/posix_tls.d --serialize-diagnostics /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/posix_tls.dia -c /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/posix_tls.c -o /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/posix_tls.o36"F2236D0C-AEEF-4B4C-8DF0-3FAFFAFF47FF-
-b3C0E9C2B-A415-4BE1-BA22-B1452959A1A1
-
-CCompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/window.o /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/window.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-s477104077.040620
-e477104077.343857
-r1
-xCompileC
-xbuild/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/window.o
-x/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/window.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/window.c
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/internal.h
-d/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/glfw_config.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/include/GLFW/glfw3.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/deps/GL/glext.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/cocoa_platform.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/posix_tls.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/iokit_joystick.h
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/nsgl_context.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/window.c204"CompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/window.o lib/atlas/external/glfw/src/window.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler10760acd0770bc41^570758cd0770bc41^---0#0#1#-19%DVTDocumentLocation2@88"file://localhost/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/window.c0000000000000000^2390"CompileC build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/window.o lib/atlas/external/glfw/src/window.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nburrell/Desktop/CSC473/Ass2    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -D_GLFW_USE_CONFIG_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/Debug/include -I/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/DerivedSources/x86_64 -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/Debug -fPIC -Wall -MMD -MT dependencies -MF /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/window.d --serialize-diagnostics /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/window.dia -c /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/src/window.c -o /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/window.o36"E1307635-0D2E-4725-9D40-06F10705B972-
-b3C0E9C2B-A415-4BE1-BA22-B1452959A1A1
-
-CLibtool /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/Debug/libglfw3.a normal x86_64
-s477104077.352844
-e477104077.376987
-r1
-xLibtool
-x/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/Debug/libglfw3.a
-xnormal
-xx86_64
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Libtool build/lib/atlas/external/glfw/src/Debug/libglfw3.a normal x86_6472"Libtool build/lib/atlas/external/glfw/src/Debug/libglfw3.a normal x86_6439615acd0770bc41^128360cd0770bc41^---0#0#1#--716"Libtool build/lib/atlas/external/glfw/src/Debug/libglfw3.a normal x86_64    cd /Users/nburrell/Desktop/CSC473/Ass2    export MACOSX_DEPLOYMENT_TARGET=10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/Debug -filelist /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/assignment.build/Debug/glfw.build/Objects-normal/x86_64/glfw3.LinkFileList -o /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/external/glfw/src/Debug/libglfw3.a36"A069D13C-35A8-48BE-8DAE-4942AE3F0054-
-b3C0E9C2B-A415-4BE1-BA22-B1452959A1A1
-

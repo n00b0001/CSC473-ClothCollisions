@@ -1,224 +1,0 @@
-Tatlas
-v6
-r1
-cCheck dependencies
-cCompileC build/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/ErrorCheck.o /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/gl/ErrorCheck.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/Log.o /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/core/Log.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/Shader.o /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/gl/Shader.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/Cone.o /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Cone.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/SDKSettings.plist
-c000000005350163F00000000000004B3
-t1397757503
-s1203
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/CoreServices/SystemVersion.plist
-c000000005350163F00000000000001DE
-t1397757503
-s478
-
-N/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/Cone.o
-t2
-s0
-
-N/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/Cube.o
-t2
-s0
-
-N/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/ErrorCheck.o
-t2
-s0
-
-N/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/Log.o
-t2
-s0
-
-N/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/Shader.o
-t2
-s0
-
-N/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/core/Log.cpp
-c0000000056BE2A000000000000000827
-t1455303168
-s2087
-
-N/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/gl/ErrorCheck.cpp
-c0000000056BE2A000000000000000570
-t1455303168
-s1392
-
-N/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/gl/Shader.cpp
-c0000000056BE2A000000000000001E85
-t1455303168
-s7813
-
-N/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Cone.cpp
-c0000000056BE2A000000000000001008
-t1455303168
-s4104
-
-N/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Cube.cpp
-c0000000056BE2A0000000000000012C4
-t1455303168
-s4804
-
-CBuild AST from /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/core/Log.cpp
-r0
-
-CBuild AST from /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/gl/ErrorCheck.cpp
-r0
-
-CBuild AST from /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/gl/Shader.cpp
-r0
-
-CBuild AST from /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Cone.cpp
-r0
-
-CBuild AST from /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Cube.cpp
-r0
-
-CBuild AST from /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Disk.cpp
-r0
-
-CBuild AST from /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/OpenCylinder.cpp
-r0
-
-CBuild AST from /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Primitive.cpp
-r0
-
-CBuild AST from /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Sphere.cpp
-r0
-
-CBuild AST from /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/utils/Application.cpp
-r0
-
-CBuild AST from /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/utils/Camera.cpp
-r0
-
-CBuild AST from /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/utils/Film.cpp
-r0
-
-CBuild AST from /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/utils/Geometry.cpp
-r0
-
-CBuild AST from /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/utils/Scene.cpp
-r0
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies520f65cd0770bc41^9a4065cd0770bc41^---0#1#1#--18"Check dependencies36"D3062106-891F-4846-B08E-2037258D474B-
-
-CCompileC build/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/Application.o /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/utils/Application.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/Camera.o /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/utils/Camera.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/Cone.o /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Cone.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s477104077.397383
-e477104077.919771
-r0
-xCompileC
-xbuild/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/Cone.o
-x/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Cone.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oIn file included from /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Cone.cpp:1:
-oIn file included from /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/primitives/Cone.hpp:6:
-oIn file included from /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/primitives/Primitive.hpp:7:
-o/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/gl/GL.hpp:34:10: fatal error: 'GL/glew.h' file not found
-o#include <GL/glew.h>
-o         ^
-o1 error generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Cone.cpp193"CompileC build/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/Cone.o lib/atlas/source/atlas/primitives/Cone.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler1dc965cd0770bc41^3e78edcd0770bc41^-487"In file included from /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Cone.cpp:1:In file included from /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/primitives/Cone.hpp:6:In file included from /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/primitives/Primitive.hpp:7:/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/gl/GL.hpp:34:10: fatal error: 'GL/glew.h' file not found#include <GL/glew.h>         ^1 error generated.-0#0#1#-19%DVTDocumentLocation2@94"file://localhost/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Cone.cpp0000000000000000^2500"CompileC build/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/Cone.o lib/atlas/source/atlas/primitives/Cone.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nburrell/Desktop/CSC473/Ass2    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/Debug/include -I/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/include -I/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glm -I/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/gli -I/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/assignment.build/Debug/atlas.build/DerivedSources/x86_64 -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/assignment.build/Debug/atlas.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/Debug -Wall -std=c++11 -stdlib=libc++ -Wall -std=c++11 -stdlib=libc++ -MMD -MT dependencies -MF /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/Cone.d --serialize-diagnostics /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/Cone.dia -c /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Cone.cpp -o /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/Cone.o36"B9EC5998-880A-4178-B33C-509C0B3E8FB4-
-bA260BF79-92B8-4074-800A-3CC1CDDA57F6
-
-CCompileC build/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/Cube.o /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Cube.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/Disk.o /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Disk.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/ErrorCheck.o /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/gl/ErrorCheck.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s477104077.397054
-e477104077.618267
-r0
-xCompileC
-xbuild/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/ErrorCheck.o
-x/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/gl/ErrorCheck.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oIn file included from /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/gl/ErrorCheck.cpp:1:
-oIn file included from /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/gl/ErrorCheck.hpp:7:
-o/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/gl/GL.hpp:34:10: fatal error: 'GL/glew.h' file not found
-o#include <GL/glew.h>
-o         ^
-o1 error generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/gl/ErrorCheck.cpp197"CompileC build/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/ErrorCheck.o lib/atlas/source/atlas/gl/ErrorCheck.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler13b865cd0770bc41^793f9ecd0770bc41^-373"In file included from /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/gl/ErrorCheck.cpp:1:In file included from /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/gl/ErrorCheck.hpp:7:/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/gl/GL.hpp:34:10: fatal error: 'GL/glew.h' file not found#include <GL/glew.h>         ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@26"'GL/glew.h' file not found-477104077#18446744073709551615#0#2(2@101"In file included from /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/gl/ErrorCheck.cpp:1:-477104077#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@92"file://localhost/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/gl/ErrorCheck.cpp0000000000000000^0#9#0#9#9#0#21"Apple LLVM 5.0 Notice--2@102"In file included from /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/gl/ErrorCheck.hpp:7:-477104077#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@93"file://localhost/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/gl/ErrorCheck.hpp0000000000000000^6#9#6#9#151#0#21"Apple LLVM 5.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@85"file://localhost/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/gl/GL.hpp0000000000000000^33#9#33#9#1040#0#29"Lexical or Preprocessor Issue--0#0#1#-19%DVTDocumentLocation4@92"file://localhost/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/gl/ErrorCheck.cpp0000000000000000^2520"CompileC build/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/ErrorCheck.o lib/atlas/source/atlas/gl/ErrorCheck.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nburrell/Desktop/CSC473/Ass2    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/Debug/include -I/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/include -I/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glm -I/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/gli -I/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/assignment.build/Debug/atlas.build/DerivedSources/x86_64 -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/assignment.build/Debug/atlas.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/Debug -Wall -std=c++11 -stdlib=libc++ -Wall -std=c++11 -stdlib=libc++ -MMD -MT dependencies -MF /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/ErrorCheck.d --serialize-diagnostics /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/ErrorCheck.dia -c /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/gl/ErrorCheck.cpp -o /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/ErrorCheck.o36"8D7C753B-083E-49F9-8A6F-489CA576037E-
-bA260BF79-92B8-4074-800A-3CC1CDDA57F6
-
-CCompileC build/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/Film.o /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/utils/Film.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/Geometry.o /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/utils/Geometry.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/Log.o /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/core/Log.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s477104077.397057
-e477104078.020687
-r1
-xCompileC
-xbuild/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/Log.o
-x/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/core/Log.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/core/Log.cpp
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/core/Platform.hpp
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/core/Log.hpp
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/core/Core.hpp
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/Atlas.hpp
-d/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/core/Macros.hpp
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/core/Log.cpp185"CompileC build/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/Log.o lib/atlas/source/atlas/core/Log.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler24b865cd0770bc41^774c05ce0770bc41^---0#0#1#-19%DVTDocumentLocation2@87"file://localhost/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/core/Log.cpp0000000000000000^2482"CompileC build/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/Log.o lib/atlas/source/atlas/core/Log.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nburrell/Desktop/CSC473/Ass2    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/Debug/include -I/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/include -I/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glm -I/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/gli -I/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/assignment.build/Debug/atlas.build/DerivedSources/x86_64 -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/assignment.build/Debug/atlas.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/Debug -Wall -std=c++11 -stdlib=libc++ -Wall -std=c++11 -stdlib=libc++ -MMD -MT dependencies -MF /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/Log.d --serialize-diagnostics /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/Log.dia -c /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/core/Log.cpp -o /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/Log.o36"22E2203E-48D0-4745-9BE7-D769530D1916-
-bA260BF79-92B8-4074-800A-3CC1CDDA57F6
-
-CCompileC build/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/OpenCylinder.o /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/OpenCylinder.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/Primitive.o /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Primitive.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/Scene.o /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/utils/Scene.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC build/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/Shader.o /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/gl/Shader.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s477104077.397377
-e477104077.919754
-r0
-xCompileC
-xbuild/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/Shader.o
-x/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/gl/Shader.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-oIn file included from /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/gl/Shader.cpp:1:
-oIn file included from /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/gl/Shader.hpp:6:
-o/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/gl/GL.hpp:34:10: fatal error: 'GL/glew.h' file not found
-o#include <GL/glew.h>
-o         ^
-o1 error generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/gl/Shader.cpp189"CompileC build/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/Shader.o lib/atlas/source/atlas/gl/Shader.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler47c765cd0770bc41^5776edcd0770bc41^-365"In file included from /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/gl/Shader.cpp:1:In file included from /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/gl/Shader.hpp:6:/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include/atlas/gl/GL.hpp:34:10: fatal error: 'GL/glew.h' file not found#include <GL/glew.h>         ^1 error generated.-0#0#1#-19%DVTDocumentLocation2@88"file://localhost/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/gl/Shader.cpp0000000000000000^2496"CompileC build/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/Shader.o lib/atlas/source/atlas/gl/Shader.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nburrell/Desktop/CSC473/Ass2    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -Wno-sign-conversion -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/Debug/include -I/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glfw/include -I/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/glm -I/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/external/gli -I/Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/include -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/assignment.build/Debug/atlas.build/DerivedSources/x86_64 -I/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/assignment.build/Debug/atlas.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/Debug -Wall -std=c++11 -stdlib=libc++ -Wall -std=c++11 -stdlib=libc++ -MMD -MT dependencies -MF /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/Shader.d --serialize-diagnostics /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/Shader.dia -c /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/gl/Shader.cpp -o /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/Shader.o36"E62FD2B6-6566-41B3-BD08-7E7C692B0533-
-bA260BF79-92B8-4074-800A-3CC1CDDA57F6
-
-CCompileC build/lib/atlas/assignment.build/Debug/atlas.build/Objects-normal/x86_64/Sphere.o /Users/nburrell/Desktop/CSC473/Ass2/lib/atlas/source/atlas/primitives/Sphere.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CLibtool /Users/nburrell/Desktop/CSC473/Ass2/build/lib/atlas/Debug/libatlas.a normal x86_64
-r0
-
